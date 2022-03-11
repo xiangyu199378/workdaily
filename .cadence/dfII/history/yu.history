@@ -1,0 +1,1 @@
+("123:/\t123 basic schematic" (("open" (nil hierarchy "/{basic 123 schematic }:a"))) (((-2.56875 -2.0) (2.56875 2.00625)) "a" "Schematics" 1))("Asize:/\tAsize US_8ths symbol" (("open" (nil hierarchy "/{US_8ths Asize symbol }:a"))) (((-1.9375 -1.575) (11.96875 5.1)) "a" "Symbol" 1))
