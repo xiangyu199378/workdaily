@@ -1,0 +1,40 @@
+
+1, 将develop 分支同步到最新
+	git checkout develop 回到 develop
+	git pull		将develop 同步最新, 相当于间接让你获得最新代码
+	
+2, 基于develop 拉一个临时 debug 分支 lcd_debug
+	git checkout -b lcd_debug
+	
+3, 基于lcd_debug 修改代码,  如 修改 testa.c 文件
+	git status   会看到testa.c 被修改
+	
+4, 加载修改得文件
+	git add testa.c
+	
+5, 提交文件.
+	git commit -m "change test.c"
+	此时testa.c 得修改 保存到branch lcd_debug 分支上
+	但是branch 还没有到服务器上
+	
+6, 将 branch 推送到服务器上.
+	git push origin lcd_debug:lcd_debug
+	此时服务器上就有调试branch lcd_debug
+	
+
+	如果不合并到 develop, 此时别人可以从服务器共享到你得修改,
+	
+如果需要将 lcd_debug 修改得东西合并到 develop
+7, git lab 网站上创建 merge request, 
+	网页上操作
+	
+=================
+本地合并, 将lcd_debug 合并到  oppo_debug 分支
+1, git checkout oppo_debug
+
+2, git merge lcd_debug
+	将代码从 lcd_debug 合并到了  oppo_debug.
+==================
+
+	
+
