@@ -1,2 +1,6 @@
 # this is  .gitignore file
-.~*
+*~*
+*~lock*
+
+
+
