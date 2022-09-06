@@ -35,3 +35,5 @@ which node
 
 sudo npm install -g npm@6.13.4
 已解决。推出并关闭虚拟机，重启电脑，成功！虽然还是不知道为什么。本意是 5 天没关机了，重启下顺便等人回复，结果意外运行 yarn install --no-bin-links 成功了，有个警告不知道影不影响
+
+

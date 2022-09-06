@@ -77,5 +77,4 @@
 
 升级过后，DP是否开启，当前7911是否开启。framework和usbloader redriver是否有差异。
 ak9188的设备问题。
-
-
+usb loader 没有设置DP。7911上电也。
