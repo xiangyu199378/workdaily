@@ -66,3 +66,6 @@ Host github.com
 复制代码
 
 此时再次去终端进行clone，第一次会让你输入密码，输入完成以后就能够正常clone了。htm
+
+
+git clone ssh://192.168.32.220:29418/mediatek_i500
