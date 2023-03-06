@@ -39,7 +39,6 @@ ESXI配合PFsense实现单个IP内网映射 : https://zhuanlan.zhihu.com/p/34892
 
 
 2.<font color='red'> 【高优先级】  </font> 大鹏缺陷解决
-
 - 反馈，flash读出参数会发送变化。
   -  拷机，不断升级未出现，接下来调用重启接口不断重启。
   -  排查代码，增加保护。已经输出固件。
